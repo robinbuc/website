@@ -1,0 +1,141 @@
+css lol
+
+@-webkit-keyframes pulse_bg {
+  0% {background-color: red;}
+  10% {background-color: purple;}
+  25% {background-color: green;}
+  45% {background-color: yellow;}
+  70% {background-color: blue;}
+  85% {background-color: aqua;}
+  100% {background-color: orange;}
+}
+
+@-moz-keyframes pulse_bg {
+  0% {background-color: red;}
+  10% {background-color: purple;}
+  25% {background-color: green;}
+  45% {background-color: yellow;}
+  70% {background-color: blue;}
+  85% {background-color: aqua;}
+  100% {background-color: orange;}
+}
+
+@-o-keyframes pulse_bg {
+  0% {background-color: red;}
+  10% {background-color: purple;}
+  25% {background-color: green;}
+  45% {background-color: yellow;}
+  70% {background-color: blue;}
+  85% {background-color: aqua;}
+  100% {background-color: orange;}
+}
+
+@keyframes pulse_bg {
+  0% {background-color: red;}
+  10% {background-color: purple;}
+  25% {background-color: green;}
+  45% {background-color: yellow;}
+  70% {background-color: blue;}
+  85% {background-color: aqua;}
+  100% {background-color: orange;}
+}
+
+body {
+  background: linear-gradient(rgba(255,210,255,0.12)  0%, rgba(210,255,255,0.3)  100%);
+  opacity: 0.9;
+}
+
+.lossless {
+}
+
+h1, h2, h3, h4, h5, h6 {
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+	font-family: "Helvetica Neue";
+  margin: 20px 30px; 
+}
+
+.robin {
+	color:#cb81fa;
+}
+
+.loss {
+	color: #4ae563;
+}
+
+.rkss {
+	color: #fabd15;
+}
+
+.jkwd {
+	color: #ff81ff;
+}
+
+a:link {
+ 	text-decoration: none;
+    color: currentColor;
+}
+
+a:visited {
+	color: currentColor;
+}
+
+a:hover {
+	-webkit-animation: pulse_bg 0.75s infinite;
+	-moz-animation: pulse_bg 0.75s infinite;
+	-o-transition: pulse_bg 0.75s infinite;
+	transition: pulse_bg 0.75s infinite;
+	text-decoration: underline;
+}
+
+div {
+  border: 5px dotted pink;
+}
+
+img {
+  width: 100%;
+}
+
+#about {
+  position: fixed;
+  width: 100px;
+  padding: 1px;
+  margin: 25px;
+  top: 300px;
+  right: 80px;
+}
+
+#aboutpara {
+  display: none;
+  position: fixed;
+  width: 350px;
+  margin-top: 45px;
+  right: 500px;
+}
+
+#about:hover + #aboutpara, #about:active + #aboutpara {
+  display: block;
+}
+
+p.#about {
+  margin: 0px;
+}
+
+#projects {
+  position: fixed;
+  top: 40px;
+  right: 80px;
+  width: 300px;
+  padding: 10px;
+  margin: 25px;
+}
+
+#cv {
+  position: absolute;
+  width: 80px;
+  height: 50px;
+  padding: 1px;
+  margin-top: 1800px; 
+  margin-left: 800px;
+}
