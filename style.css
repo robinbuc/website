@@ -54,7 +54,7 @@ h1, h2, h3, h4, h5, h6 {
 
 p, h1, h2, h3, h4, h5, h6 {
 	font-family: "Helvetica Neue";
-  margin: 20px 30px; 
+  margin: 20px 30px;
 }
 
 
@@ -103,13 +103,34 @@ img {
   width: 100%;
 }
 
+#currently {
+  position: fixed;
+  top: 40px;
+  right: 80px;
+  width: 290px;
+  padding: 10px;
+  text-align: right;
+  margin: 25px;
+}
+
+#projects {
+  position: fixed;
+  top: 330px;
+  right: 80px;
+  width: 210px;
+  padding: 10px;
+  margin: 25px;
+  text-align: right;
+}
+
 #about {
   position: fixed;
-  width: 100px;
+  top: 600px;
+  width: 110px;
   padding: 1px;
   margin: 25px;
-  top: 300px;
   right: 80px;
+  text-align: right;
 }
 
 #aboutpara {
@@ -117,7 +138,7 @@ img {
   position: fixed;
   width: 350px;
   margin-top: 45px;
-  right: 500px;
+  right: 450px;
 }
 
 #about:hover + #aboutpara, #about:active + #aboutpara {
@@ -128,28 +149,11 @@ p.#about {
   margin: 0px;
 }
 
-#projects {
-  position: fixed;
-  top: 40px;
-  right: 80px;
-  width: 300px;
-  padding: 10px;
-  margin: 25px;
-}
-
-#projects2 {
-  position: fixed;
-  top: 40px;
-  right: 80px;
-  padding: 10px;
-  margin: 25px;
-}
-
 #cv {
   position: absolute;
   width: 80px;
   height: 50px;
   padding: 1px;
-  margin-top: 1800px; 
+  margin-top: 1800px;
   margin-left: 800px;
 }
