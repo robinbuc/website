@@ -41,15 +41,10 @@ css lol
   100% {background-color: orange;}
 }
 
+
 body {
   background: linear-gradient(rgba(255,210,255,0.12)  0%, rgba(210,255,255,0.3)  100%);
   opacity: 0.9;
-}
-
-.lossless {
-}
-
-h1, h2, h3, h4, h5, h6 {
 }
 
 p, h1, h2, h3, h4, h5, h6 {
@@ -76,6 +71,12 @@ p, h1, h2, h3, h4, h5, h6 {
 .jkwd {
 	color: #ff81ff;
   font-family: 'UnifrakturCook', cursive;
+}
+
+.rel {
+  border: 3px dotted #ffb3a3;
+  width: 900px;
+  margin: 20px 31px;
 }
 
 a:link {
@@ -131,6 +132,7 @@ img {
   margin: 25px;
   right: 80px;
   text-align: right;
+
 }
 
 #aboutpara {
