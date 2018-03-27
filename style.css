@@ -93,7 +93,12 @@ a:hover {
 	-moz-animation: pulse_bg 0.75s infinite;
 	-o-transition: pulse_bg 0.75s infinite;
 	transition: pulse_bg 0.75s infinite;
-  text-decoration: underline;
+  text-decoration: none;
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='Squiggle-svg' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.st0{animation:shift .1s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23FB6754' stroke-width='1' class='st0' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+	background-position: 0 calc(100% - 15%);
+	background-size: auto 3px;
+	background-repeat: repeat-x;
+	padding-bottom: 3px;
 }
 
 div {
@@ -104,6 +109,8 @@ img {
   width: 100%;
 }
 
+
+
 #currently {
   position: fixed;
   top: 40px;
@@ -112,6 +119,30 @@ img {
   padding: 10px;
   text-align: right;
   margin: 25px;
+}
+
+#socials {
+  position: fixed;
+  top: 330px;
+  right: 335px;
+  width: 52.5px;
+  padding: 10px;
+  margin: 25px;
+  text-align: right;
+}
+
+#socials a:hover {
+  -webkit-animation: pulse_bg 0s infinite;
+	-moz-animation: pulse_bg 0s infinite;
+	-o-transition: pulse_bg 0s infinite;
+	transition: pulse_bg 0s infinite;
+  text-decoration: none;
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.st0{animation:shift .1s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23FB6754' stroke-width='1' class='st0' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+	background-position: 0 calc(100% - 100%);
+	background-size: auto 0px;
+	background-repeat: repeat-x;
+	padding-bottom: 0px;
+
 }
 
 #projects {
@@ -132,7 +163,6 @@ img {
   margin: 25px;
   right: 80px;
   text-align: right;
-
 }
 
 #aboutpara {
