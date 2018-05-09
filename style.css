@@ -75,8 +75,10 @@ p, h1, h2, h3, h4, h5, h6 {
 
 .rel {
   border: 3px dotted #ffb3a3;
-  width: 900px;
   margin: 20px 31px;
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 a:link {
